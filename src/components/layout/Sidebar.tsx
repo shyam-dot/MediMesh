@@ -7,7 +7,6 @@ import {
   GitMerge, 
   Home, 
   Settings, 
-  Shield, 
   Zap 
 } from 'lucide-react';
 
@@ -16,7 +15,7 @@ const menuItems = [
   { id: 'systems', label: 'Legacy Systems', icon: Database, path: '/systems' },
   { id: 'migration', label: 'Migration Tasks', icon: GitMerge, path: '/migration' },
   { id: 'analytics', label: 'Analytics', icon: BarChart3, path: '/analytics' },
-  { id: 'security', label: 'Security', icon: Shield, path: '/security' },
+  { id: 'security', label: 'Security', icon: Settings, path: '/security' },
   { id: 'performance', label: 'Performance', icon: Zap, path: '/performance' },
   { id: 'settings', label: 'Settings', icon: Settings, path: '/settings' },
 ];
